@@ -1,35 +1,37 @@
 {
-  "name": "screencap",
-  "version": "0.0.1",
-  "description": "A Screen Capture (Image & Video) Library",
+  "name": "headlight",
+  "version": "0.0.3",
+  "description": "Start, Stop, & Status For NodeJS Apps",
   "main": "index.js",
+  "bin": {
+    "headlight": "./bin/headlight"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Screen",
-    "Capture",
-    "Video",
-    "Record",
-    "Desktop",
-    "Image",
-    "Shot"
-  ],
-  "author": "Active 9 LLC",
-  "license": "MIT",
-  "dependencies": {
-    "fluent-ffmpeg": "^2.0.0-rc3"
-  },
-  "directories": {
-    "example": "examples"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/active9/screencap"
+    "url": "https://github.com/active9/headlight"
   },
+  "keywords": [
+    "start",
+    "stop",
+    "restart",
+    "status",
+    "pid",
+    "node",
+    "app",
+    "runner"
+  ],
+  "dependencies": {
+	"npid": "*",
+	"rpid": "*",
+	"shelljs": "*"
+  },
+  "author": "Active 9 LLC.",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/active9/screencap/issues"
+    "url": "https://github.com/active9/headlight/issues"
   },
-  "homepage": "https://github.com/active9/screencap"
+  "homepage": "https://github.com/active9/headlight"
 }
