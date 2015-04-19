@@ -1,0 +1,35 @@
+{
+  "name": "screencap",
+  "version": "0.0.1",
+  "description": "A Screen Capture (Image & Video) Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Screen",
+    "Capture",
+    "Video",
+    "Record",
+    "Desktop",
+    "Image",
+    "Shot"
+  ],
+  "author": "Active 9 LLC",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.0.0-rc3"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/active9/screencap"
+  },
+  "bugs": {
+    "url": "https://github.com/active9/screencap/issues"
+  },
+  "homepage": "https://github.com/active9/screencap"
+}
