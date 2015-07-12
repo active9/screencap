@@ -12,7 +12,7 @@ You will need to download and install the following:
 
  - http://www.microsoft.com/en-us/download/details.aspx?id=3138
  - http://sourceforge.net/projects/screencapturer/
- - http://ffmpeg.org/
+ - http://ffmpeg.org/ *Optional
 
 Using microsoft windows sdk 7 open the CMD Shell supplied with the SDK. Then type the following.
 ```bash
@@ -80,6 +80,12 @@ var screen = screencap({
 screen.capture('30');
 ```
 The above example would take a Screen Recording of 30 second to an MP4 video.  Notice you may specify your own videoCodec and audio / video Bitrates. More examples are provided within the examples folder.
+
+Piping can also be used to directly render a desktop through a response function such as express res. The most basic example is to pipe the screen to an express server.
+
+```javascript
+
+```
 
 ##CONTRIBUTING
 

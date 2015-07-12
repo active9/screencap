@@ -1,6 +1,6 @@
 {
   "name": "screencap",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Screen Capture (Image & Video) Library",
   "main": "index.js",
   "bin": {
@@ -21,7 +21,7 @@
   "author": "Active 9 LLC",
   "license": "MIT",
   "dependencies": {
-    "fluent-ffmpeg": "^2.0.0-rc3"
+    "fluent-ffmpeg": "*"
   },
   "directories": {
     "example": "examples"
