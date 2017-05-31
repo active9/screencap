@@ -66,7 +66,7 @@ screencap screen_capture.png
 This will create a screen shot of your screen to a PNG image.
 NOTE: Saving to PNG does not require a duration as it is unnecessary for a still image.
 
-##Incorporating
+##API
 
 You can use ScreenCap in your own software by including it as a dependency. The following example is a programatic way to take a screen shot using Screen Cap.
 ```javascript
@@ -84,6 +84,12 @@ The above example would take a Screen Recording of 30 second to an MP4 video.  N
 Piping can also be used to directly render a desktop through a response function such as express res. The most basic example is to pipe the screen to an express server.
 
 ```javascript
+var screencap = require('screencap');
+var screen = screencap();
+app.get('/', function(req, res) {
+	screen.shotPipe(res);
+});
+
 
 ```
 
