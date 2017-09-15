@@ -1,12 +1,12 @@
-#ScreenCap
+# ScreenCap
 ![ScreenCap](https://raw.githubusercontent.com/active9/screencap/master/ScreenCap.png)
 
 A Screen Capture (Image & Video) Library
 
-##Introduction
+## Introduction
 ScreenCap is a screen capturing npm module that allows you to record your desktop to MP4 or animated GIF as well as take Desktop Screen Shots.
 
-##Installing
+## Installing
 Windows:
 You will need to download and install the following:
 
@@ -29,7 +29,7 @@ Using the terminal type in the following:
 brew install ffmpeg
 npm install screencap -g
 ```
-LInux:
+Linux:
 
 Using bash or the terminal type in the following:
 ```bash
@@ -37,7 +37,7 @@ sudo apt-get install ffmpeg x11grab
 sudo npm install screencap -g
 ```
 
-##USING
+## USING
 
 ScreenCap is best used stand-alone but may be incorporated into your projects. See the Incorporating section below to use ScreenCap in your own projects.
 
@@ -66,7 +66,7 @@ screencap screen_capture.png
 This will create a screen shot of your screen to a PNG image.
 NOTE: Saving to PNG does not require a duration as it is unnecessary for a still image.
 
-##API
+## API
 
 You can use ScreenCap in your own software by including it as a dependency. The following example is a programatic way to take a screen shot using Screen Cap.
 ```javascript
@@ -93,6 +93,6 @@ app.get('/', function(req, res) {
 
 ```
 
-##CONTRIBUTING
+## CONTRIBUTING
 
 We encourage forking. Feel free to fork & pull your new additions, or bug fixes.
